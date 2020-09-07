@@ -7,8 +7,16 @@
     android:fitsSystemWindows="true"
     tools:context="com.example.workforce_app.MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="256dp"
+        android:layout_height="272dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/logo" />
+
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="fill_parent"
         android:gravity="center"
         android:orientation="vertical"
@@ -17,13 +25,14 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp">
 
             <EditText
                 android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="30dp"
                 android:hint="Email"
                 android:inputType="textEmailAddress"
                 android:textColor="@android:color/black"
@@ -38,7 +47,6 @@
                 android:id="@+id/password"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
                 android:hint="Password"
                 android:inputType="textPassword"
                 android:textColor="@android:color/black"
@@ -62,7 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dip"
             android:text="Forgot Your Password?"
-            android:textAllCaps="false"/>
+            android:textAllCaps="false" />
 
         <!-- Link to Login Screen -->
 

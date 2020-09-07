@@ -9,10 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Login_Information"></activity>
+        <activity android:name=".Employee_Information"></activity>
+        <activity android:name=".Check_Stubs" />
+        <activity android:name=".Schedule" />
+        <activity android:name=".Meeting" />
+        <activity android:name=".Login_Information" />
         <activity android:name=".Reset_Password" />
         <activity android:name=".Register" />
-        <activity android:name=".dashboard" />
+        <activity android:name=".Dashboard" />
         <activity android:name=".Clockin" />
         <activity android:name=".MainActivity">
             <intent-filter>
